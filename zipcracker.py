@@ -1,4 +1,6 @@
 import zipfile
+import webbrowser
+webbrowser.open("https://youtube.com/@owov_bot?si=f0Pzs1q0ZXwtToRr")
 import sys
 import argparse
 
