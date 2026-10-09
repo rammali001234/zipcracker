@@ -1,6 +1,4 @@
-📄 README.md – Full Content (Copy-Paste)
 
-```markdown
 <h1 align="center">🔓 ZipCracker</h1>
 
 <p align="center">
@@ -15,42 +13,35 @@
 
 ---
 
-## ✨ Features
+✨ Features
 
-- ⚡ **Fast** wordlist-based password testing
-- 🖥️ **Simple** command-line interface
-- 🪶 **Lightweight** and easy to use
-- 📂 Supports **custom wordlists**
-- 📊 **Progress display** during testing
-- 🔧 **Open-source** and customizable
+· ⚡ Fast wordlist-based password testing
+· 🖥️ Simple command-line interface
+· 🪶 Lightweight and easy to use
+· 📂 Supports custom wordlists
+· 📊 Progress display during testing
+· 🔧 Open-source and customizable
 
 ---
 
-## 🚀 Installation & Usage
+🚀 Installation & Usage
 
-### 1. Clone the Repository
-```bash
+1. Clone the Repository
+
 git clone https://github.com/rammali001234/zipcracker.git
 cd zipcracker
-```
 
 2. Run the Tool
 
-```bash
 python3 zipcracker.py <zip_file> -w <wordlist>
-```
 
 Example:
 
-```bash
 python3 zipcracker.py secret.zip -w wordlist.txt
-```
 
 3. Interactive Mode (Without Wordlist)
 
-```bash
 python3 zipcracker.py secret.zip
-```
 
 ---
 
@@ -63,12 +54,10 @@ python3 zipcracker.py secret.zip
 
 📁 File Structure
 
-```
 zipcracker/
-├── zipcracker.py    # Main script
-├── README.md        # Documentation
-└── wordlist.txt     # Your password list
-```
+├── zipcracker.py
+├── README.md
+└── wordlist.txt
 
 ---
 
@@ -105,5 +94,3 @@ This tool is intended only for authorized security testing, educational use, and
 📜 License
 
 This project is licensed under the MIT License.
-
-```
